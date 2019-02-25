@@ -1,7 +1,11 @@
-ul {
+
+
+.nav--ul {
     list-style: none;
+
 }
-li {
+
+.nav--li {
     display: inline;
     padding: 5px;  
 }
