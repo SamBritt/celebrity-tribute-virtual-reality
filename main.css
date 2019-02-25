@@ -9,3 +9,12 @@
     display: inline;
     padding: 5px;  
 }
+
+.home{
+    background: url(images/Noah-Bradley_The-Sin-of-Man_Idylls-of-Love_1400x.jpg) no-repeat;
+    display: table;
+    position: relative;
+    width: 100%;
+    background-size: cover;
+
+}
