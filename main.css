@@ -10,3 +10,14 @@ nav bar  ul {
     display: inline;
     padding: 5px;
  }
+ .container{
+     display: block;
+     justify-content:center;
+     align-items: center;
+ }
+  img{
+     width: 98%;
+     height: 240px;
+     padding: 5px;
+     margin: 0;
+ }
