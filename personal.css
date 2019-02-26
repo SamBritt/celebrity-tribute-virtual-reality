@@ -1,3 +1,7 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .personal {
     display: flex;
     flex-flow: column wrap;
