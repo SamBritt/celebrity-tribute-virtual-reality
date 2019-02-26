@@ -16,17 +16,17 @@ nav bar  ul {
      align-items: center;
  }
   img{
-     display: flex;
-     width: 98%;
+     width: 400px;
      height: 240px;
      padding: 0px;
-     margin: 0;
+     margin: auto;
  }
 .flex{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    float: left;
-    shape-outside: circle();
-    margin: 30px;
+    float: right;
 }
+
+
+
