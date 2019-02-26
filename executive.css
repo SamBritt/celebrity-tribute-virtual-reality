@@ -1,7 +1,7 @@
 body{
     background-color: aqua;
 }
-nav bar  ul {
+.navbar  ul {
     list-style: none;
  
  }
@@ -15,18 +15,28 @@ nav bar  ul {
      justify-content:center;
      align-items: center;
  }
-  img{
-     width: 400px;
+.rounded-img{
+     width: 100%;
      height: 240px;
      padding: 0px;
      margin: auto;
+     position: relative;
  }
 .flex{
     width: 200px;
     height: 200px;
     border-radius: 50%;
-    float: right;
+    float: left;
 }
-
-
-
+.birth-place{
+    display: inline;
+}
+.pic-city img{
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    height: 240px;
+    object-fit: cover;
+    object-position: center;
+    align-items: center;
+}
