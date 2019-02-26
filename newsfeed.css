@@ -13,7 +13,11 @@
     display: flex;
     flex-flow: row wrap;
     justify-content: space-between;
-    align-content: center;
+    align-items: flex-start;
+}
+
+img {
+    width: 200px;
 }
 
 .card {
