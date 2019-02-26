@@ -1,0 +1,48 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.nav--ul {
+    list-style: none;
+
+}
+
+.nav--li {
+    display: inline;
+    padding: 5px;  
+}
+
+#home{
+    background: url(images/Noah-Bradley_Every-Inclination-of-the-Human-Heart_4k_1400x.jpg) no-repeat;
+    background-color: rgba(48, 59, 48, 0.603);
+    display: table;
+    position: relative;
+    width: 100%;
+    min-height: 700px;
+    background-size: cover;  
+}
+.main-title{
+    text-align: center;
+    align-items: baseline;
+    font-size: 3.5rem;
+    color: #f0e4dbe3;
+    margin-top: 50px;
+    letter-spacing: 3px;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    color: #f0e4dbe3;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.nav-list a{
+    color: #f0e4dbe3;
+    text-decoration: none;
+}
+.nav-list a:hover{
+    color: coral;
+}
