@@ -17,11 +17,20 @@ nav bar  ul {
  }
   img{
      width: 98%;
-     height: auto   ;
+     height: auto;
      padding: 0px;
      margin: 0;
  }
- .noah-img{
+ .pic-noah .noah-img{
+     display: flex;
+     align-items: center;
+     text-align: right;
     border-radius: 50%;
     float: left;
+    flex-flow: wrap;
+ }
+ img{
+     display: flex;
+     align-items: center;
+     
  }
