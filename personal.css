@@ -1,0 +1,17 @@
+.personal {
+    display: flex;
+    flex-flow: column wrap;
+}
+
+.personal--sub {
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 10px;
+}
+
+.personal--text {
+    margin: 1px 0 0 0;
+    padding: 0 0 0 10px;
+    font-size: 1.5em;
+    align-self: center;
+}
