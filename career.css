@@ -1,0 +1,11 @@
+.published-work{
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+.published-work img{
+    max-width: auto;
+    height: 300px;
+    justify-content: center;
+}
