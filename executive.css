@@ -21,16 +21,22 @@ nav bar  ul {
      padding: 0px;
      margin: 0;
  }
- .pic-noah .noah-img{
-     display: flex;
-     align-items: center;
-     text-align: right;
+ .collaborator{
+    display: flex;
+    flex: 33%;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 2px;
+}
+.noah-img{
+    flex-basis: 32%;
+    border: 2px;
+    justify-items: baseline;
+    padding: 1px;
+}
+.collaborator .noah-img {
+    width: 100px;
     border-radius: 50%;
     float: left;
-    flex-flow: wrap;
- }
- img{
-     display: flex;
-     align-items: center;
-     
- }
+    
+}
