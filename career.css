@@ -4,10 +4,11 @@ body{
     background-color: #ffc472;
 
     font-family: 'Montserrat', sans-serif;
+    color: #d8d6d2;
 }
 
 .main-container{
-    perspective: 2px;
+    perspective: 1px;
     transform-style: preserve-3d;
     height: 100vh;
     overflow-x: hidden;
@@ -15,13 +16,28 @@ body{
 }
 
 #top-image{
-    background: url(images/Noah-Bradley_The-Sin-of-Man_Idylls-of-Love_1400x.jpg) no-repeat;
+    background: url(images/NoahBradleyEdit.png) no-repeat;
     position: relative;
     display: table;
     background-size: cover;
     width: 100%;
-    min-height: 400px;
+    min-height: 700px;
 
+}
+
+.parallax-Container{
+    display: flex;
+  flex: 1 0 auto;
+  position: relative;
+  height: 100vh;
+  transform: translateZ(-1px) scale(2);
+  z-index: -1;
+}
+
+.content-Container{
+    display: block;
+  position: relative;
+  z-index: 1;
 }
 .nav-list{
     display: flex;
@@ -29,6 +45,7 @@ body{
     color: #f0e4dbe3;
     justify-content: space-evenly;
     list-style: none;
+    margin-top: 50px;
 }
 
 .nav-list a{
@@ -71,4 +88,8 @@ body{
   }
 .general-info p{
       text-align: center;
+  }
+
+  .bg-box{
+      background-color: #3b280ca8;
   }
