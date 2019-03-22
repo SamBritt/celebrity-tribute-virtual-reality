@@ -16,7 +16,9 @@ body{
 }
 
 #top-image{
-    background: url(images/NoahBradleyEdit.png) no-repeat;
+    background: url(images/noah-bradley-woman.jpg) no-repeat;
+    -webkit-clip-path: polygon(50% 100%, 0 50%, 0% 0%, 100% 0, 100% 50%);
+clip-path: polygon(50% 100%, 0 50%, 0% 0%, 100% 0, 100% 50%);
     position: relative;
     display: table;
     background-size: cover;
